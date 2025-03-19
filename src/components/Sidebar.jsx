@@ -12,7 +12,7 @@ function Sidebar({recieveData}){
                 Naveenkumar Portfolio
             </div>
             <div className="sidebarItem">
-                <NavLink to="/" className="sidebarlink">
+                <NavLink to="/portfolio-react-app/" className="sidebarlink">
                 <HomeIcon /> Home
                 </NavLink>
             </div>
@@ -28,7 +28,7 @@ function Sidebar({recieveData}){
                 </NavLink>
             </div>
             <div className="sidebarItem">
-                <NavLink to="contact" className="sidebarlink">
+                <NavLink to="/contact" className="sidebarlink">
                 <ContactPageIcon /> Contact
                 </NavLink>
             </div>
