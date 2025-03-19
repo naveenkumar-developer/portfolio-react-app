@@ -17,7 +17,7 @@ function Header({sideBarFunc, sidebarStatus}){
             </div>
             <nav className="nav_largerScreen ">
                 <ul>
-                    <li><NavLink className="header_link" to="/">Home</NavLink></li>
+                    <li><NavLink className="header_link" to="/portfolio-react-app/">Home</NavLink></li>
                     <li><NavLink className="header_link"  to="/about">About</NavLink></li>
                     <li><NavLink className="header_link"  to="/projects">Projects</NavLink></li>
                     <li><NavLink className="header_link"  to="/contact">Contact</NavLink></li>

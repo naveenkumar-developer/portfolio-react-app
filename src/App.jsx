@@ -36,7 +36,7 @@ const handleSidebar= () =>{
     <Header sideBarFunc={handleSidebar} sidebarStatus={sideBarShow}/>
     <main className='main_content'>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/portfolio-react-app/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path='projects' element={<ProjectPage />} />
       <Route path="contact" element={<Contact />} />
