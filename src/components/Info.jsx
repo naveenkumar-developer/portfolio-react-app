@@ -8,7 +8,7 @@ return(
     <div className="info_container ">
         <h3>Let's work together on your next project</h3>
         <p>As a passionate frontend fresher, I'm eager to collaborate and contribute to your next project. Whether it's designing responsive interfaces, building user-friendly websites, or turning ideas into visually engaging digital experiences, I’m excited to bring value with creativity and dedication. Let’s work together to create something remarkable!</p>
-        <NavLink className="header_link"  to="/contact">
+        <NavLink className="header_link"  to="/portfolio-react-app/contact">
         <button className="contactBtn">
         Contact
         </button>

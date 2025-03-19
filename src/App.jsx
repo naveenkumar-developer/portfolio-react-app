@@ -37,9 +37,9 @@ const handleSidebar= () =>{
     <main className='main_content'>
     <Routes>
       <Route path="/portfolio-react-app/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path='projects' element={<ProjectPage />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="/portfolio-react-app/about" element={<About />} />
+      <Route path='/portfolio-react-app/projects' element={<ProjectPage />} />
+      <Route path="/portfolio-react-app/contact" element={<Contact />} />
     </Routes>
     </main>
     <Footer />

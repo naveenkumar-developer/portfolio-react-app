@@ -52,3 +52,9 @@
     left: -100%;
     transition: 0.3s 0.2s;
 }
+
+@media screen and (width>=48rem) {
+    .sideBar_container{
+        display: none;
+    }
+}

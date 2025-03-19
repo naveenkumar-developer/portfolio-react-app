@@ -12,23 +12,23 @@ function Sidebar({recieveData}){
                 Naveenkumar Portfolio
             </div>
             <div className="sidebarItem">
-                <NavLink to="/portfolio-react-app/" className="sidebarlink">
+                <NavLink to="/portfolio-react-app/" className="sidebarlink" end>
                 <HomeIcon /> Home
                 </NavLink>
             </div>
             <div className="sidebarItem">
-                <NavLink to="/about" className="sidebarlink">
+                <NavLink to="/portfolio-react-app/about" className="sidebarlink">
                 <ListAltIcon /> About
                 </NavLink>
 
             </div>
             <div className="sidebarItem">
-                <NavLink to="/projects" className="sidebarlink">
+                <NavLink to="/portfolio-react-app/projects" className="sidebarlink">
                 <ComputerIcon /> Projects
                 </NavLink>
             </div>
             <div className="sidebarItem">
-                <NavLink to="/contact" className="sidebarlink">
+                <NavLink to="/portfolio-react-app/contact" className="sidebarlink">
                 <ContactPageIcon /> Contact
                 </NavLink>
             </div>
