@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.ProjectCard {
+    width: clamp(18.75rem, 3.571rem + 22.81vw, 20rem);
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #fdfffc;
+}
+
+.imgContainer_projectCard {
+    flex: 1;
+    width: 100%;
+    height: 60%;
+}
+
+.imgContainer_projectCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px 5px 0 0;
+}
+
+.projectCard_body {
+    padding: 10px;
+}
+
+.descrition_projectCard h4{
+    color: #000;
+    text-align: start;
+}
+.viewBtn_projectCard {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+}
+
+@keyframes appearProjectCards {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.scroll-effect-box{
+    animation: appearProjectCards linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}

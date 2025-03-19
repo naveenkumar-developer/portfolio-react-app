@@ -1,0 +1,40 @@
+.heroSection_container{
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+    background: url(../images/herosection_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heroSection_intro{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* row-gap: 2.7rem; */
+}
+.heroSection_intro .heroSection_titles_container .heroSection_title{
+    color: #fff;
+    font-weight: 700;
+}
+
+.heroSection_intro .heroSection_titles_container .dynamicChanging_title .heroSection_title{
+    color: #1e88e5;
+}
+
+.heroSection_para {
+    color: #dad7cd;
+    font-size: 1rem;
+}
+
+@media screen and (width>= 48rem) {
+    .heroSection_intro{
+        row-gap: 2.7rem;
+        padding: 2rem;
+    }
+    .heroSection_para{
+        font-size: 1.3rem;
+    }
+}

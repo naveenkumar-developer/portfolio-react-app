@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.experience_container_wrapper{
+    background: #000814;
+}
+.experience_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pageTitle_container .pageTitle{
+    color: #fff;
+}
+
+.experienceLabel{
+    width: 300px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    background: #0096c7;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.experienceLabel p{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.experience_para{
+    line-height: 2;
+    color: #dad7cd;
+}
+
+@media screen  and (width>=48rem) {
+.experience_para{
+    font-size: 1.3rem;
+}    
+}

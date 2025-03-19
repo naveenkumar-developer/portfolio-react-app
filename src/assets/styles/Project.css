@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.projectPage{
+    background: #000814;
+}
+.projectPage h1{
+    text-align: center;
+    color: #fff;
+}
+.projectCards_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+@media  screen and (width>=48rem) {
+    .projectCards_container{
+        margin-inline: 2rem;
+    }
+}

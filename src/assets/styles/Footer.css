@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.footer{
+    background: #000814;
+}
+.footer .container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #03071e;
+    padding: 15px ;
+}
+.footer_title{
+    color: #8d99ae;
+}
+.footerLinks *{
+    margin-left: 1rem;
+    color: #8d99ae;
+}
+
+.footerLinks{
+    display: flex;
+}

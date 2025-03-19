@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contact_container{
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+    background: #000814;
+}
+.contact_container h1{
+    color: #fff;
+    text-align: center;
+}
+
+.contact_form{
+    padding: 1rem;
+    width: clamp(300px, 3.571rem + 23.81vw, 25rem);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contact_form .inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.contact_form .inputGroup label{
+    color: #dad7cd;
+}
+.contact_form .inputGroup input{
+    color: #fff;
+    outline: 1px solid transparent;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.contact_form .inputGroup input:hover,
+.contact_form .inputGroup textarea:hover{
+    outline: 1px solid #1e88e5;
+    transition: 0.3s;
+}
+.contact_form .inputGroup textarea{
+    color: #fff;
+    outline: 1px solid transparent;
+    border: 1px solid grey;
+    background: transparent;
+    height: 80px;
+    border-radius: 5px;
+    padding-left: 10px;
+    resize: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.contact_form button[type="submit"]{
+    width: 200px;
+    margin-top: 1rem;
+    padding: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    background: #1e88e5;
+    border-radius: 5px;
+}
+
+.contact_form button[type="submit"]:hover{
+    background: transparent;
+    color: #fff;
+    transition: 0.3s;
+    border: 1px solid #1e88e5;
+}
+
+/* ERROR INLINE MSG STYLES  */
+
+.error{
+    color: #9d0208;
+}
+
+/* ALERT BOX STYLE  */
+
+/* ERROR BOX STYLES  */
+.errorBox,
+.submittedBox {
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 101;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+    transition: height 0.4s, opacity 0.4s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.errorBox .errorIcon * {
+    color: #ff0000;
+}
+
+.errorBox h6 {
+    margin: 0px;
+    color: #ff0000;
+}
+
+.errorBox p,
+.submittedBox p {
+    /* font-size: 0.8rem; */
+    margin: 0px;
+    font-weight: 500;
+}
+
+.errorBox button {
+    padding: 5px;
+    font-weight: 500;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+/* SUBMIT BOX STYLES  */
+.submittedBox .submitIcon * {
+    color: #1e88e5;
+}
+
+.submittedBox h6 {
+    margin: 0px;
+    color: #1e88e5;
+}
+
+.submittedBox button {
+    padding: 5px;
+    font-weight: 500;
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
