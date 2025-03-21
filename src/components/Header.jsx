@@ -1,4 +1,4 @@
-import resume from "../assets/resume/Naveenkumar.pdf";
+import resume from "../assets/resume/Naveenkumar_Resume.pdf";
 import MenuIcon from '@mui/icons-material/Menu';
 import { NavLink } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
